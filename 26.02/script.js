@@ -32,14 +32,12 @@ if(time >= 0 && time <= 14){
 }
 */
 
-/*
 let test = true;
-if(test){
+if(test !== true){
     alert('Верно!')
 }else{
     alert('Неверно')
 }
-*/
 
 /*
 let test = false;
