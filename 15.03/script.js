@@ -26,8 +26,25 @@ const goods = [
 
 ]
 
+const filterPrice = (goodsArray, price, operator) => {
+    return goodsArray.filter(good => {
+        if (operator === '>'){
+            return good.price > price;
+        } else if (operator === '<'){
+            return good.price < price;
+        }
+    })
+}
+console.log(filterPrice(goods, 1000, '<'));
+
+/*
 let filterPrice1 = goods.filter(item => item.price > 1000);
 console.log(filterPrice1);
 
 let filterPrice2 = goods.filter(item => item.price < 1000);
 console.log(filterPrice2);
+*/
+
+
+
+
