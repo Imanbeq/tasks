@@ -2,7 +2,7 @@
 /*
 let inputNum = prompt('Введите число');
 let x = 0;
-while (y != 99) {
+while (inputNum != 99) {
     x++;
     inputNum = prompt('Введите число');
 }
