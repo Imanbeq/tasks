@@ -1,0 +1,50 @@
+.btn{
+    border: 0;
+    background: chocolate;
+    padding: 10px 30px;
+    color: black;
+}
+
+.d-block{
+    display: block!important;
+}
+
+.notification{
+    display: none;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.notification-primary{
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+.notification-success{
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
