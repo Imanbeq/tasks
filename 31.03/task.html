@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Работа с элементами формы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="javascript:void(0)">
+    <fieldset class="field">
+        <legend>Анкета пользователя</legend>
+        <p><label><input type="text" placeholder="ФИО"></label></p>
+        <p><label><input type="number" placeholder="Номер телефона"></label></p>
+        <p><label><input type="date" placeholder="Дата рождения"></label></p>
+
+        <p>Ваш пол?</p>
+        <p><label><input type="radio" name="gender" id="man" value="man">мужской</label></p>
+        <p><label><input type="radio" name="gender" id="woman" value="woman">женский</label></p>
+
+        <p>Какой язык интересует?</p>
+        <p><label for="js"><input type="checkbox"  id="js" value="js">Javascript</label></p>
+        <p><label for="java"><input type="checkbox"  id="java" value="java">Java</label></p>
+        <p><label for="sql"><input type="checkbox"  id="sql" value="sql">SQL</label></p>
+
+        <p>Выберите филиал</p>
+        <select>
+            <option value="0">Выберите</option>
+            <option value="1">Суюмбаева, 123</option>
+            <option value="2">Турусбекова, 109/1</option>
+        </select>
+
+        <p><input type="submit"></p>
+    </fieldset>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
