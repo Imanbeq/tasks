@@ -1,6 +1,5 @@
 const btn = document.querySelector('#btn');
 
-
 btn.onclick = (e) => {
     e.preventDefault();
     const elems = document.querySelectorAll('.elems');
