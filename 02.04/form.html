@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  class="bg-dark">
+
+<div class="container d-flex justify-content-center align-items-center" style="width: 100%; height: 100vh">
+
+    <form class=" d-grid gap-3 border border-4 border-secondary rounded-3  bg-light py-5 px-4 " style="width: 750px; height: auto;">
+        <h5>Анкета корпоративных клиентов</h5>
+        <div class="row">
+            <label for="private_s">Личнные данные</label>
+            <div class="col" id="private_s">
+                <input type="text" class="form-control name" placeholder="Фамилия" id="surname">
+            </div>
+
+            <div class="col">
+                <input type="text" class="form-control name" placeholder="Имя" id="name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control name" placeholder="Отчество" id="secondName">
+            </div>
+        </div>
+
+        <div class="row">
+            <label for="pasport">Паспотрные данные</label>
+            <div class="col-3" id="pasport">
+                <input type="text" class="form-control" placeholder="Дата рождения">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Место проживания по прописке">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control name"  placeholder="Серийный номер AN/ID" id="seriaId">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control name" placeholder="ИНН" id="inn">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control name" placeholder="Дата получения" id="giveDate">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <input type="text" class="form-control"  placeholder="Контакный номер">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" placeholder="Электронный адрес">
+            </div>
+            <div class="col-4">
+                <select class="form-select">
+                    <option selected>Наименнование банка...</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <input type="text" class="form-control" placeholder="Фактическое место проживания">
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col"><a class="btn btn-dark btn-lg text-center" id="btn" style="width:300px" href="#" role="button">Далее</a></div>
+        </div>
+
+    </form>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
